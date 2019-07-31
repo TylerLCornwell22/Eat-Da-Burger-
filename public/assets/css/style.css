@@ -16,9 +16,26 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+  color: white;
+  font-family: monospace;
+}
+
+body {
+  text-align: center;
+  background-image: url(/assets/images/burger.jpg);
+  background-position: top;
+  background-size: 30%;
+  color: aliceblue;
+  background-color: darkslategrey;
+  background-repeat: no-repeat;
+}
+
+
+h1 {
   color: aliceblue;
 }
 
-.body {
-  background-color: blue;
+.text {
+  font-size: 11px;
+  margin-top: 0%;
 }
