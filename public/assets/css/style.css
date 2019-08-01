@@ -1,7 +1,8 @@
 li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+  padding: 3px;
+  margin: 8px;
+  color: white;
+  font-size: 19px;
 }
 
 .label {
@@ -38,4 +39,9 @@ h1 {
 .text {
   font-size: 11px;
   margin-top: 0%;
+}
+
+h2 {
+  font-size: 17px;
+  color: fuchsia;
 }
