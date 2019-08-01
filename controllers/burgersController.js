@@ -9,9 +9,9 @@ var burger = require("../models/burgers.js");
 router.get("/", function(req, res) {
   burger.all(function(data) {
     var hbsObject = {
-      burger: data //PoSSIBLE ERROR HERE said CATS
+      burgers: data //PoSSIBLE ERROR HERE said CATS
     };
-    console.log(hbsObject);
+    console.log("hbs",hbsObject);
     res.render("index", hbsObject);
   });
 });
